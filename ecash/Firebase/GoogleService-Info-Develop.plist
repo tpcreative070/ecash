@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CLIENT_ID</key>
+    <string>1079803027046-i0upj1kt3g5a80vl3iu8tepirn16r809.apps.googleusercontent.com</string>
+    <key>REVERSED_CLIENT_ID</key>
+    <string>com.googleusercontent.apps.1079803027046-i0upj1kt3g5a80vl3iu8tepirn16r809</string>
+    <key>ANDROID_CLIENT_ID</key>
+    <string>1079803027046-ahvda1ts9fq2p1o1et8otj64nikfkl13.apps.googleusercontent.com</string>
+    <key>API_KEY</key>
+    <string>AIzaSyC8p-ViqMlYSI_Dqs14Dm1kxKSwCq4qG7g</string>
+    <key>GCM_SENDER_ID</key>
+    <string>1079803027046</string>
+    <key>PLIST_VERSION</key>
+    <string>1</string>
+    <key>BUNDLE_ID</key>
+    <string>vn.ecpay.ecash.develop</string>
+    <key>PROJECT_ID</key>
+    <string>ecnotifications-b69df</string>
+    <key>STORAGE_BUCKET</key>
+    <string>ecnotifications-b69df.appspot.com</string>
+    <key>IS_ADS_ENABLED</key>
+    <false></false>
+    <key>IS_ANALYTICS_ENABLED</key>
+    <false></false>
+    <key>IS_APPINVITE_ENABLED</key>
+    <true></true>
+    <key>IS_GCM_ENABLED</key>
+    <true></true>
+    <key>IS_SIGNIN_ENABLED</key>
+    <true></true>
+    <key>GOOGLE_APP_ID</key>
+    <string>1:1079803027046:ios:2df798d614ea59fa1297a7</string>
+    <key>DATABASE_URL</key>
+    <string>https://ecnotifications-b69df.firebaseio.com</string>
+</dict>
+</plist>

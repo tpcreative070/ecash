@@ -1,0 +1,30 @@
+//
+//  Develop.xcconfig
+//  ecash
+//
+//  Created by phong070 on 8/1/19.
+//  Copyright © 2019 thanhphong070. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+// Fixing issue in the case using with cocoa pod=> sudo gem update cocoapods --pre
+APP_NAME = eCash develop
+APP_VERSION = 25
+APP_VERSION_STRING = 3.5
+APP_BUNDLE_ID = vn.ecpay.ecash.develop
+APP_ICON = AppIconDevelop
+
+APP_GOOGLE_CLIENT_ID = 1079803027046-i0upj1kt3g5a80vl3iu8tepirn16r809.apps.googleusercontent.com
+APP_GOOGLE_REVERSED_CLIENT_ID = com.googleusercontent.apps.1079803027046-i0upj1kt3g5a80vl3iu8tepirn16r809
+
+// ------- UAT ENV -------
+APP_ROOT_URL = http:\/\/116.193.72.25:3979
+APP_WS_URL = ws:\/\/116.193.72.25:1959\/sync
+
+// ------- DEV ENV -------
+//APP_ROOT_URL = http:\/\/116.193.72.25:8013
+//APP_WS_URL = ws:\/\/10.10.32.102:8010\/sync
+
+//APP_WS_URL = ws:\/\/116.193.72.25:8010\/sync
+

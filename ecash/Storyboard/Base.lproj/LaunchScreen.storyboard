@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N7Z-ly-Obu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_plashscreen_lixi.png" translatesAutoresizingMaskIntoConstraints="NO" id="C2y-Lu-YVA">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JR2-Ej-8zw">
+                                        <rect key="frame" x="107" y="406" width="200" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="G25-u7-4bc"/>
+                                            <constraint firstAttribute="height" constant="50" id="oaB-DL-OtU"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="C2y-Lu-YVA" secondAttribute="trailing" id="Dyu-gJ-79d"/>
+                                    <constraint firstItem="C2y-Lu-YVA" firstAttribute="leading" secondItem="N7Z-ly-Obu" secondAttribute="leading" id="W16-8H-osv"/>
+                                    <constraint firstItem="JR2-Ej-8zw" firstAttribute="centerX" secondItem="N7Z-ly-Obu" secondAttribute="centerX" id="f0i-eE-X1R"/>
+                                    <constraint firstItem="JR2-Ej-8zw" firstAttribute="centerY" secondItem="N7Z-ly-Obu" secondAttribute="centerY" id="hLp-dU-tky"/>
+                                    <constraint firstAttribute="bottom" secondItem="C2y-Lu-YVA" secondAttribute="bottom" id="un3-ac-jZn"/>
+                                    <constraint firstItem="C2y-Lu-YVA" firstAttribute="top" secondItem="N7Z-ly-Obu" secondAttribute="top" id="vU6-Xh-W13"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="N7Z-ly-Obu" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="QbY-gj-YLe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="N7Z-ly-Obu" secondAttribute="bottom" id="sup-pj-A5J"/>
+                            <constraint firstItem="N7Z-ly-Obu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tOo-6Q-HPD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N7Z-ly-Obu" secondAttribute="trailing" id="yb8-UD-mGv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_plashscreen_lixi.png" width="375" height="812"/>
+    </resources>
+</document>
